@@ -11,7 +11,8 @@ const openProxy = false;
 ///代理地址
 const networkProxy = "192.168.0.222:8888";
 
-///splash倒计时
-const int countDown = 3;
-
 final ThemeData defaultTheme = ThemeData(primarySwatch: Colors.red);
+
+///全局通用间距边距
+const double spacing = 10;
+const double halfSpacing = 5;

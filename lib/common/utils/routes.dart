@@ -7,12 +7,16 @@ class Routes {
   static String follow = "FollowPage";
   static String message = "MessagePage";
   static String personal = "PersonalPage";
+
+  static String video = "VideoPage";
+
   static Map<String, WidgetBuilder> routes = {
     root: (context) => const RootPage(),
     home: (context) => const HomePage(),
     follow: (context) => const FollowPage(),
     message: (context) => const MessagePage(),
     personal: (context) => const PersonalPage(),
+    video: (context) => const VideoPage(),
   };
 
   static push(BuildContext context, MaterialPageRoute route) {
